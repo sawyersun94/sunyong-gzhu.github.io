@@ -1,11 +1,35 @@
 const C=SITE_CONTENT; const $=id=>document.getElementById(id);
-function txt(id,v){if($(id))$(id).textContent=v||""}function paras(id,a){$(id).innerHTML=(a||[]).map(x=>`<p>${x}</p>`).join("")}
+function txt(id,v){if($(id))$(id).textContent=v||""}
+function paras(id,a){$(id).innerHTML=(a||[]).map(x=>`<p>${x}</p>`).join("")}
 function links(id,a){$(id).innerHTML=(a||[]).map(x=>`<a href="${x.url}" ${x.url.startsWith('http')?'target="_blank" rel="noopener"':''}>${x.text}</a>`).join("")}
+function escapeHtml(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function boldSelfAuthor(authors){let s=escapeHtml(authors);s=s.replace(/(^|[,;，；]\s*)(Sun Y)(?=\s*[,;，；]|$)/g,'$1<strong class="self-author">Sun Y</strong>');s=s.replace(/(^|[,;，；]\s*)(孙勇)(?=\s*[,;，；]|$)/g,'$1<strong class="self-author">孙勇</strong>');return s}
+
 txt('navName',C.profile.nameCn);txt('navNameEn',C.profile.nameEn);txt('nameCn',C.profile.nameCn);txt('nameEn',C.profile.nameEn);txt('position',C.profile.position);txt('affiliation',C.profile.affiliation);txt('affiliation2',C.profile.affiliation2);txt('headline',C.profile.headline);$('portrait').src=C.profile.portrait;paras('bio',C.profile.bio);links('profileLinks',C.profile.links);
 $('highlights').innerHTML=C.profile.highlights.map(x=>`<div class="highlight"><b>${x.value}</b><span>${x.label}</span></div>`).join('');
 $('researchCards').innerHTML=C.research.map((x,i)=>`<article class="card"><span class="num">${String(i+1).padStart(2,'0')}</span><h3>${x.title}</h3><p>${x.description}</p></article>`).join('');txt('methods',C.methods);
 $('education').innerHTML=C.education.map(x=>`<div class="row"><div class="time">${x.time}</div><div><b>${x.place}</b><small>${x.detail}</small></div></div>`).join('');
-function isZh(p){return p.language==='中文'||/[\u4e00-\u9fff]/.test(p.title)}function renderPubs(filter='all'){$('publicationList').innerHTML=PUBLICATIONS.filter(p=>filter==='all'||(filter==='zh'&&isZh(p))||(filter==='en'&&!isZh(p))).map(p=>`<article class="pub"><div class="pubyear">${p.year}</div><div><div class="pubtitle">${p.title}${p.url?` <a class="doi" href="${p.url}" target="_blank">DOI ↗</a>`:''}</div><div class="pubmeta">${p.authors} · ${p.journal}</div></div><div class="tag">${p.tag||''}</div></article>`).join('')};renderPubs();document.querySelectorAll('.filterbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filterbar button').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderPubs(b.dataset.filter)});
+
+function isZh(p){return p.language==='中文'||/[\u4e00-\u9fff]/.test(p.title)}
+function isLead(p){return p.tag==='第一作者'||p.tag==='通讯作者'}
+let pubFilter='all';
+let pubExpanded=false;
+const PUB_LIMIT=20;
+function filteredPubs(){return PUBLICATIONS.filter(p=>pubFilter==='all'||(pubFilter==='zh'&&isZh(p))||(pubFilter==='en'&&!isZh(p))||(pubFilter==='lead'&&isLead(p)))}
+function renderPubs(){
+  const items=filteredPubs();
+  const shown=pubExpanded?items:items.slice(0,PUB_LIMIT);
+  $('publicationList').innerHTML=shown.map(p=>`<article class="pub"><div class="pubyear">${escapeHtml(p.year)}</div><div><div class="pubtitle">${escapeHtml(p.title)}${p.url?` <a class="doi" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">DOI ↗</a>`:''}</div><div class="pubmeta">${boldSelfAuthor(p.authors)} · ${escapeHtml(p.journal)}</div></div><div class="tag">${escapeHtml(p.tag||'')}</div></article>`).join('');
+  const count=$('publicationCount'),toggle=$('togglePublications');
+  if(count) count.textContent=items.length>PUB_LIMIT&&!pubExpanded?`当前显示 ${Math.min(PUB_LIMIT,items.length)} / ${items.length} 篇`:`共 ${items.length} 篇`;
+  if(toggle){
+    if(items.length<=PUB_LIMIT){toggle.style.display='none'}else{toggle.style.display='inline-flex';toggle.textContent=pubExpanded?'收起论文列表':'查看全部论文'}
+  }
+}
+renderPubs();
+document.querySelectorAll('.filterbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filterbar button').forEach(x=>x.classList.remove('active'));b.classList.add('active');pubFilter=b.dataset.filter;pubExpanded=false;renderPubs()});
+if($('togglePublications'))$('togglePublications').onclick=()=>{pubExpanded=!pubExpanded;renderPubs();if(!pubExpanded)$('publications').scrollIntoView({behavior:'smooth',block:'start'})};
+
 $('projectList').innerHTML=C.projects.map(p=>`<article class="project"><div class="role">${p.role}</div><div><h3>${p.title}</h3><p>${p.description}</p></div></article>`).join('');
 txt('teamIntro',C.team.intro);$('teamCategories').innerHTML=C.team.categories.map(x=>`<div class="teambox"><h3>${x.title}</h3><p>${x.text}</p></div>`).join('');if(C.team.members&&C.team.members.length){$('teamMembers').className='members';$('teamMembers').innerHTML='<h3>团队成员</h3>'+C.team.members.map(m=>`<div class="member"><b>${m.name}</b> · ${m.degree}<br><small>${m.interest}</small></div>`).join('')}txt('teamNote',C.team.note);
 $('courses').innerHTML=C.teaching.courses.map(x=>`<span>${x}</span>`).join('');$('awards').innerHTML=C.teaching.awards.map(x=>`<li>${x}</li>`).join('');$('service').innerHTML=C.service.map(x=>`<li>${x}</li>`).join('');
