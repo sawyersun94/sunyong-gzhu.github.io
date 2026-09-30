@@ -54,46 +54,44 @@ const PUBLICATIONS_TEXT = `
 2025 | 中文 | 第一作者 | 生态产品价值实现促进乡村可持续发展：理论机理与实践路径 | 孙勇, 赵健烽, 赵榕, 乔琴 | 生态经济, 41(6): 216-222 | 
 2024 | 英文 | 第一作者 | Drivers and barriers to digital transformation in agriculture: An evolutionary game analysis based on the experience of China | Sun Y, Miao Y, Xie Z, Wu R | Agricultural Systems, 221: 104136 | https://doi.org/10.1016/j.agsy.2024.104136
 2024 | 英文 | 第一作者 | Drivers, constraints, and policy regulation strategies for the abandonment of Farmland: insights from China | Sun Y, Jiang H, Zhu X | Land, 13(12): 2096 | https://doi.org/10.3390/land13122096
-2024 | 英文 | 通讯作者 | Geographical indication, agricultural development and the alleviation of rural relative poverty | Zhang S, Sun Y, Wang Y, Lin X | Sustainable Development | https://doi.org/10.1002/sd.2997
+2024 | 英文 | 通讯作者 | Geographical indication, agricultural development and the alleviation of rural relative poverty | Zhang S, Sun Y, Wang Y, Lin X | Sustainable Development, 32(5): 5764–5780 | https://doi.org/10.1002/sd.2997
 2024 | 英文 | 合作作者 | How does developing green agriculture affect poverty? Evidence from China’s prefecture-level cities | Jiang X, Sun Y, Shen M, Tang L | Agriculture, 14(3): 402 | https://doi.org/10.3390/agriculture14030402
-2024 | 英文 | 合作作者 | Impact of agricultural product brands and agricultural industry agglomeration on agricultural carbon emissions | Zhang S, Wen X, Sun Y, Xiong Y | Journal of Environmental Management, 369: 122238 | https://doi.org/10.1016/j.jenvman.2024.122238
 2024 | 英文 | 第一作者 | How can governments and fishermen collaborate to participate in a fishing ban for ecological restoration? | Sun Y, Sun Z, Zhang Y, Qiao Q | Journal of Environmental Management, 360: 120958 | https://doi.org/10.1016/j.jenvman.2024.120958
+2024 | 英文 | 合作作者 | Impact of agricultural product brands and agricultural industry agglomeration on agricultural carbon emissions | Zhang S, Wen X, Sun Y, Xiong Y | Journal of Environmental Management, 369: 122238 | https://doi.org/10.1016/j.jenvman.2024.122238
 2024 | 英文 | 第一作者 | Leveraging intergovernmental data sharing for digital transformation in ecological and environmental protection | Sun Y, He J, Xiang Q, Zhou K | Journal of Cleaner Production, 477: 143780 | https://doi.org/10.1016/j.jclepro.2024.143780
+2024 | 英文 | 合作作者 | Multi-Stakeholder Game Relationships in Promoting the Development of the Non-Timber Forest Product Industry by State-Owned Forest Farms | Qiao Q, Lin Z, Sun Z, Zhang W, Zhang M, Sun Y, Gao X | Forests, 15(11): 2049 | https://doi.org/10.3390/f15112049
+2024 | 英文 | 通讯作者 | Practices, Challenges, and Future of Digital Transformation in Smallholder Agriculture: Insights from a Literature Review | Yuan Y, Sun Y | Agriculture, 14(12): 2193 | https://doi.org/10.3390/agriculture14122193
+2024 | 英文 | 合作作者 | Risk assessment and classification prediction for water environment treatment PPP projects | Yang R, Feng J, Tang J, Sun Y | Water Science & Technology, 89(5): 1264-1281 | https://doi.org/10.2166/wst.2024.052
 2024 | 英文 | 合作作者 | Spatial correlation network structure characteristics of carbon emission efficiency and its influencing factors at city level in China | Sun Z, Cheng X, Zhuang Y, Sun Y | Environment, Development and Sustainability, 26(2): 5335-5366 | https://doi.org/10.1007/s10668-023-02936-4
 2024 | 英文 | 合作作者 | The evolutionary game in regulating non-agricultural farmland use within the integrated development of rural primary, secondary, and tertiary industries | Cheng L, Huang H, Sun Y, Li Z, Du H | Land, 13(10): 1600 | https://doi.org/10.3390/land13101600
 2024 | 英文 | 合作作者 | The mass public’s science literacy and co-production during the COVID-19 pandemic: empirical evidence from 140 cities in China | Qin H, Xie Z, Shang H, Sun Y, Yang X, Li M | Humanities and Social Sciences Communications, 11(1): 834 | https://doi.org/10.1057/s41599-024-03304-x
 2024 | 英文 | 合作作者 | The rise in female consciousness contributes to advancing household energy transition: Evidence from Chinese households | Shen M, Jiang X, Sun Y, Tang L | Energy, 308: 132954 | https://doi.org/10.1016/j.energy.2024.132954
 2024 | 英文 | 合作作者 | Contrasting non-timber forest products’ case studies in underdeveloped areas in China | Qiao Q, Lei S, Zhang W, Shao G, Sun Y, Han Y | Forests, 15(9): 1629 | https://doi.org/10.3390/f15091629
-2024 | 英文 | 合作作者 | Multi-Stakeholder Game Relationships in Promoting the Development of the Non-Timber Forest Product Industry by State-Owned Forest Farms | Qiao Q, Lin Z, Sun Z, Zhang W, Zhang M, Sun Y, Gao X | Forests, 15(11): 2049 | https://doi.org/10.3390/f15112049
-2024 | 英文 | 通讯作者 | Practices, Challenges, and Future of Digital Transformation in Smallholder Agriculture: Insights from a Literature Review | Yuan Y, Sun Y | Agriculture, 14(12): 2193 | https://doi.org/10.3390/agriculture14122193
-2024 | 英文 | 合作作者 | Risk assessment and classification prediction for water environment treatment PPP projects | Yang R, Feng J, Tang J, Sun Y | Water Science & Technology, 89(5): 1264-1281 | https://doi.org/10.2166/wst.2024.052
-2024 | 英文 | 第一作者 | How to address enterprise collusion in falsifying carbon emission data: A game theory analysis | Sun Y, Yang X, Wu R, Gong G, Lei T | Managerial and Decision Economics | https://doi.org/10.1002/mde.4380
-2024 | 英文 | 第一作者 | Unlocking the value of nature: A deep dive into China’s ecological product realization and its driving mechanisms | Sun Y, Zhao J, Qiao Q, Lin Z, Zhang W | Forests, 16(1): 37 | https://doi.org/10.3390/f16010037
 2024 | 英文 | 合作作者 | Evolutionary game analysis of forest carbon note system in China | Qiao Q, Lei S, Gao X, Sun Y, Han Y, Sun Z | Journal of Cleaner Production, 435: 140450 | https://doi.org/10.1016/j.jclepro.2023.140450
-2024 | 中文 | 合作作者 | 中国去工业化经济风险的表现形式、形成机理及防控路径研究 | 龚广祥, 王展祥, 孙勇 | 经济学家, (3): 98-107 | https://doi.org/10.16158/j.cnki.51-1312/f.2024.03.012
-2024 | 中文 | 第一作者 | 中国信息服务业时空格局演化及影响因素分析 | 孙勇, 张思慧, 王天, 张佩 | 地理与地理信息科学, 40(1): 73-80 | https://doi.org/10.3969/j.issn.1672-0504.2024.01.009
-2024 | 中文 | 第一作者 | 数字平台“二选一”垄断行为与监管策略 | 孙勇, 杨瑞佳, 张亚峰 | 运筹与管理, 33(1): 219-225 | 
-2024 | 中文 | 第一作者 | 高寒生态脆弱区农牧民生活垃圾集中处理激励机制与政策模拟——以藏北牧区为例 | 孙勇, 周侃, 滕鹤郅, 刘汉初, 孙中瑞 | 生态学报, 44(8): 3185-3198 | https://doi.org/10.20103/j.stxb.202211213372
 2024 | 中文 | 合作作者 | 东西部产业协作何以有效:来自穗黔刺梨产业协作的观察 | 谢治菊, 孙勇, 梁琴 | 中国软科学, (9): 34-43 | 
 2024 | 中文 | 合作作者 | 民族地区经济-社会-治理系统耦合协调效应评价与系统动力学仿真——以新疆为例 | 虎海峰, 孙勇, 刘明凯, 刘宝印, 樊杰 | 中国管理科学, 32(5): 93-102 | https://doi.org/10.16381/j.cnki.issn1003-207x.2022.0311
+2024 | 中文 | 第一作者 | 数字平台“二选一”垄断行为与监管策略 | 孙勇, 杨瑞佳, 张亚峰 | 运筹与管理, 33(1): 219-225 | 
+2024 | 中文 | 合作作者 | 中国去工业化经济风险的表现形式、形成机理及防控路径研究 | 龚广祥, 王展祥, 孙勇 | 经济学家, (3): 98-107 | https://doi.org/10.16158/j.cnki.51-1312/f.2024.03.012
+2024 | 中文 | 第一作者 | 中国信息服务业时空格局演化及影响因素分析 | 孙勇, 张思慧, 王天, 张佩 | 地理与地理信息科学, 40(1): 73-80 | https://doi.org/10.3969/j.issn.1672-0504.2024.01.009
+2024 | 中文 | 第一作者 | 高寒生态脆弱区农牧民生活垃圾集中处理激励机制与政策模拟——以藏北牧区为例 | 孙勇, 周侃, 滕鹤郅, 刘汉初, 孙中瑞 | 生态学报, 44(8): 3185-3198 | https://doi.org/10.20103/j.stxb.202211213372
+2023 | 英文 | 合作作者 | Analysis of the spatial distribution characteristics of emerging pollutants in China | Zhang M, Sun Y, Xun B, Liu B | Water, 15(21): 3782 | https://doi.org/10.3390/w15213782
+2023 | 英文 | 合作作者 | An identification of industrial functional zones based on NLP: Evidence from online commercial registration data | Ma Y, Sun Y, Weng F, Xu Y | Sage Open, 13(1): 21582440231153854 | https://doi.org/10.1177/21582440231153854
+2023 | 英文 | 第一作者 | Cooperative governance mechanisms for personal information security: an evolutionary game approach | Sun Y, Zhang Y, Wang Y, Zhang S | Kybernetes, 54(1): 431-455 | https://doi.org/10.1108/K-04-2023-0717
+2023 | 英文 | 第一作者 | Evolutionary game of destination brand co-construction with government involvement | Sun Y, Wang Y, Liu B, Sun Z | Managerial and Decision Economics, 44(4): 2125-2136 | https://doi.org/10.1002/mde.3806
 2023 | 英文 | 通讯作者 | Geographical Indication, Agricultural Products Export and Urban–Rural Income Gap | Zhang S, Sun Y, Yu X, Zhang Y | Agriculture, 13(2): 378 | https://doi.org/10.3390/agriculture13020378
+2023 | 英文 | 通讯作者 | How to promote agricultural enterprises to reduce the use of pesticides and fertilizers? An evolutionary game approach | He Q, Sun Y, Yi M, Huang H | Frontiers in Sustainable Food Systems, 7: 1238683 | https://doi.org/10.3389/fsufs.2023.1238683
 2023 | 英文 | 合作作者 | Impact of spatial imbalance of green technological innovation and industrial structure upgradation on the urban carbon emission efficiency gap | Sun Z, Sun Y, Liu H, Cheng X | Stochastic Environmental Research and Risk Assessment, 37(6): 2305–2325 | https://doi.org/10.1007/s00477-023-02395-3
 2023 | 英文 | 第一作者 | Inter-regional cooperation in the transfers of energy-intensive industry: An evolutionary game approach | Sun Y, Liu B, Sun Z, Yang R | Energy, 282: 128313 | https://doi.org/10.1016/j.energy.2023.128313
-2023 | 英文 | 第一作者 | Evolutionary game of destination brand co-construction with government involvement | Sun Y, Wang Y, Liu B, Sun Z | Managerial and Decision Economics, 44(4): 2125-2136 | https://doi.org/10.1002/mde.3806
-2023 | 英文 | 通讯作者 | How to promote agricultural enterprises to reduce the use of pesticides and fertilizers? An evolutionary game approach | He Q, Sun Y, Yi M, Huang H | Frontiers in Sustainable Food Systems, 7: 1238683 | https://doi.org/10.3389/fsufs.2023.1238683
 2023 | 英文 | 合作作者 | Spatial equity of basic education resources and coordinated regional development in Xinjiang, China | Han T, Fan J, Guo R, Sun Y, Chen D, Liu B, Lian Y | Chinese Geographical Science, 33(3): 441-457 | https://doi.org/10.1007/s11769-023-1352-2
 2023 | 英文 | 合作作者 | Spatial-temporal coupling analysis of economic development-social development-government governance in Xinjiang, China | Hu H, Sun Y, Zhao H, Liu B, Guo R | Chinese Geographical Science, 33(3): 410-425 | https://doi.org/10.1007/s11769-023-1351-3
 2023 | 英文 | 第一作者 | The administrative center or economic center: Which dominates the regional green development pattern? A case study of shandong peninsula urban agglomeration, China | Liu K, Sun Y, Yang D | Green and Low-Carbon Economy, 1(3): 110-120 | https://doi.org/10.47852/bonviewGLCE3202955
-2023 | 英文 | 第一作者 | Cooperative governance mechanisms for personal information security: an evolutionary game approach | Sun Y, Zhang Y, Wang Y, Zhang S | Kybernetes, 54(1): 431-455 | https://doi.org/10.1108/K-04-2023-0717
-2023 | 英文 | 合作作者 | Analysis of the spatial distribution characteristics of emerging pollutants in China | Zhang M, Sun Y, Xun B, Liu B | Water, 15(21): 3782 | https://doi.org/10.3390/w15213782
-2023 | 英文 | 合作作者 | An identification of industrial functional zones based on NLP: Evidence from online commercial registration data | Ma Y, Sun Y, Weng F, Xu Y | Sage Open, 13(1): 21582440231153854 | https://doi.org/10.1177/21582440231153854
 2023 | 英文 | 合作作者 | Territorial function differentiation and its comprehensive regionalization in China | Fan J, Zhou K, Sheng K, Guo R, Chen D, Wang Y, Liu H, Wang Z, Sun Y, Zhang J, Wu J, Zhao H | Science China Earth Sciences, 66(2): 247–270 | https://doi.org/10.1007/s11430-022-1004-0
-2023 | 中文 | 合作作者 | 新基建与产业升级耦合协调发展的空间格局及影响因素 | 张佩, 孙勇 | 长江流域资源与环境, 32(3): 464-477 | 
 2023 | 中文 | 合作作者 | 青藏高原国家公园群建设与社区可持续发展的空间耦合类型 | 郭锐, 孙勇, 虞虎 | 生态学报, 43(14): 5686-5698 | 
 2023 | 中文 | 第一作者 | 消费帮扶的协同治理机制与演化过程——来自广州市荔湾区的观察 | 孙勇, 张艳媚, 林婉涵 | 新经济, (11): 144-158 | 
+2023 | 中文 | 合作作者 | 新基建与产业升级耦合协调发展的空间格局及影响因素 | 张佩, 孙勇 | 长江流域资源与环境, 32(3): 464-477 | 
 2023 | 中文 | 第一作者 | 目的地品牌建设中的旅游供应链合作研究 | 孙勇, 樊杰, 孙中瑞, 乔琴 | 运筹与管理, 32(6): 138-144 | 
-2023 | 中文 | 合作作者 | 中国陆域综合功能区及其划分方案 | 樊杰, 周侃, 盛科荣, 郭锐, 陈东, 王亚飞, 刘汉初, 王正, 孙勇, 张杰, 伍健雄, 赵浩 | 中国科学:地球科学, 53(2): 236-255 | 
 2023 | 中文 | 合作作者 | 碳汇产品价值实现模式及其优化路径 | 乔琴, 高馨婷, 雷硕, 孙勇, 张恩祥, 郑玉萍, 韩永伟 | 中国国土资源经济, 36(10): 19-27+81 | https://doi.org/10.19676/j.cnki.1672-6995.000893
+2023 | 中文 | 合作作者 | 中国陆域综合功能区及其划分方案 | 樊杰, 周侃, 盛科荣, 郭锐, 陈东, 王亚飞, 刘汉初, 王正, 孙勇, 张杰, 伍健雄, 赵浩 | 中国科学:地球科学, 53(2): 236-255 | 
 2022 | 英文 | 第一作者 | Evolutionary game analysis for grassland degradation management, considering the livelihood differentiation of herders | Sun Y, Du H, Liu B, Kanchanaroek Y, Zhang J, Zhang P | Land, 11(10): 1776 | https://doi.org/10.3390/land11101776
 2022 | 英文 | 合作作者 | Spatial differentiation characteristics of human settlements and their responses to natural and socioeconomic conditions in the marginal zone of an uninhabited area, Changtang Plateau, China | Zhang H, Liu H, Sun Y, He R | Chinese Geographical Science, 32(3): 506-520 | https://doi.org/10.1007/s11769-022-1280-6
 2022 | 英文 | 合作作者 | The amplification effect of unreasonable human behaviours on natural disasters | Fan J, Liu B, Ming X, Sun Y, Qin L | Humanities and Social Sciences Communications, 9(1): 322 | https://doi.org/10.1057/s41599-022-01351-w
@@ -103,11 +101,11 @@ const PUBLICATIONS_TEXT = `
 2022 | 中文 | 合作作者 | 中国绿色科技创新效率空间关联网络结构特征及影响因素 | 孙中瑞, 樊杰, 孙勇, 刘汉初 | 经济地理, 42(3): 33-43 | https://doi.org/10.15957/j.cnki.jjdl.2022.03.004
 2022 | 中文 | 第一作者 | 数字技术创新对产业结构升级的影响及其空间效应——以长江经济带为例 | 孙勇, 张思慧, 赵腾宇, 张亚峰 | 软科学, 36(10): 9-16 | https://doi.org/10.13956/j.ss.1001-8409.2022.10.02
 2022 | 中文 | 第一作者 | 政府专利资助与企业专利申请的演化博弈分析 | 孙勇, 马园庭, 张亚峰 | 情报杂志, 41(5): 198-207 | 
-2022 | 中文 | 第一作者 | 黄河流域科技创新的时空格局及其经济效应 | 孙勇, 汪亚林, 张亚峰 | 科技管理研究, 42(5): 1-9 | 
-2022 | 中文 | 第一作者 | 黄河流域绿色技术创新时空格局及其影响因素分解 | 孙勇, 樊杰, 孙中瑞, 郭锐 | 生态经济, 38(5): 60-67 | 
-2022 | 中文 | 第一作者 | 长三角地区数字技术创新时空格局及其影响因素 | 孙勇, 樊杰, 刘汉初, 赵腾宇 | 经济地理, 42(2): 124-133 | https://doi.org/10.15957/j.cnki.jjdl.2022.02.014
 2022 | 中文 | 合作作者 | 信息基础设施与融合基础设施协同发展的空间格局及影响因素 | 张佩, 孙勇 | 经济问题探索, (10): 94-104 | 
 2022 | 中文 | 合作作者 | 群内和跨群双视角下成渝城市群合作创新网络时空演化研究 | 孙中瑞, 樊杰, 孙勇 | 地域研究与开发, 41(1): 26-31+44 | 
+2022 | 中文 | 第一作者 | 长三角地区数字技术创新时空格局及其影响因素 | 孙勇, 樊杰, 刘汉初, 赵腾宇 | 经济地理, 42(2): 124-133 | https://doi.org/10.15957/j.cnki.jjdl.2022.02.014
+2022 | 中文 | 第一作者 | 黄河流域科技创新的时空格局及其经济效应 | 孙勇, 汪亚林, 张亚峰 | 科技管理研究, 42(5): 1-9 | 
+2022 | 中文 | 第一作者 | 黄河流域绿色技术创新时空格局及其影响因素分解 | 孙勇, 樊杰, 孙中瑞, 郭锐 | 生态经济, 38(5): 60-67 | 
 2021 | 英文 | 第一作者 | The multi-player evolutionary game analysis for the protective development of ecotourism | Sun Y, Liu B, Fan J, Qiao Q | Environmental Science & Policy, 126: 111-121 | https://doi.org/10.1016/j.envsci.2021.09.026
 2021 | 英文 | 合作作者 | The spatial coupling characteristics between the construction of Qingzang National Park Cluster and the sustainable development of local communities | Guo R, Chen D, Zhou D, Liu B, Liu H, Zhao Y, Sun Y, Fan J | Geography and Sustainability, 2(1): 1-11 | https://doi.org/10.1016/j.geosus.2021.01.001
 2021 | 中文 | 合作作者 | “一带一路”沿线省域绿色金融测度及影响因素研究 | 乔琴, 樊杰, 孙勇, 宋邱惠 | 工业技术经济, 40(7): 120-126 | 
