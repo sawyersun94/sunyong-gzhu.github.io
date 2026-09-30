@@ -21,13 +21,13 @@ const SITE_CONTENT = {
   profile: {
     nameCn: "孙勇",
     nameEn: "Yong Sun",
-    position: "副教授 · 硕士生导师",
+    position: "副院长 · 副教授 · 硕士生导师",
     affiliation: "广州大学公共管理学院",
     affiliation2: "广州大学乡村振兴研究院",
     portrait: "https://gupa.gzhu.edu.cn/__local/2/68/53/FEF2ED176B77867CF735A2B3EDA_6EC8E887_20AB1.jpg",
-    headline: "区域可持续发展 · 乡村振兴 · 国土空间治理 · 数字化转型",
+    headline: "经济地理 · 社会文化地理 · 乡村地理 · 区域可持续发展 · 国土空间治理",
     bio: [
-      "孙勇，湖北襄阳人，广州大学公共管理学院副教授、硕士生导师，博士毕业于中国科学院大学。主要从事土地资源管理、城乡治理、国土空间治理、数字经济地理及区域可持续发展研究。",
+      "孙勇，湖北襄阳人，广州大学公共管理学院副教授、硕士生导师，博士毕业于中国科学院大学。主要从事经济地理与区域可持续发展研究，最近的研究兴趣主要包括乡村振兴与农业发展、土地与国土空间治理、数字经济地理与数字治理等。",
       "近年来围绕农业与乡村数字化转型、生态环境治理、生态产品价值与生态系统服务、乡村振兴、土地利用与空间治理等议题开展研究，综合运用空间分析、可解释机器学习、演化博弈、扎根理论、QCA、系统动力学、问卷调查与深度访谈等方法。",
       "近三年主持国家自然科学基金、教育部人文社会科学研究项目和广东省哲学社会科学规划项目各1项，并参与国家自然科学基金重点项目、第二次青藏高原综合科学考察、国家发展改革委“十四五”规划前期研究等课题。已在 Nature Communications、Land Use Policy、Agricultural Systems、Computers and Electronics in Agriculture、Sustainable Development、《中国软科学》《中国科学院院刊》《经济地理》等期刊发表中英文学术论文40余篇。2024年、2025年连续入选“中国知网高被引学者TOP 5%”。"
     ],
@@ -40,7 +40,7 @@ const SITE_CONTENT = {
       { text: "电子邮箱", url: "mailto:sunyong@gzhu.edu.cn" }
     ],
     highlights: [
-      { value: "40+", label: "中英文学术论文" },
+      { value: "60+", label: "中英文学术论文" },
       { value: "3项", label: "近三年主持国家/省部级项目" },
       { value: "TOP 5%", label: "2024、2025 CNKI高被引学者" }
     ]
